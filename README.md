@@ -49,4 +49,6 @@ cicids2017-classification/
 
 ## Data split
 
-All team members load data using `data_split.py` to guarantee identical 60/20/20 train/validation/test splits across all machines. Do not modify the random seed or split logic without informing the group.
+We are using `data_split.py` to guarantee identical 60/20/20 train/validation/test splits across all machines. Do not modify the random seed or split logic.
+
+Happy training

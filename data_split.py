@@ -1,7 +1,7 @@
 """
 Shared data splitting module for CICIDS2017 classification assignment.
 
-Every team member imports this file in their personal notebook to guarantee
+We imports this file in our personal notebook to guarantee
 identical train/validation/test splits across all machines and algorithms.
 
 Usage in your notebook (from inside the training/ folder):

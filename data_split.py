@@ -36,7 +36,7 @@ def load_and_split_data(csv_path, max_rows=100000, shuffle=True):
         X_train, X_val, X_test, y_train, y_val, y_test
     """
     print(f"Loading data from {csv_path}...")
-    df = pd.read_csv(csv_path, nrows=max_rows if shuffle else None)
+    df = pd.read_csv(csv_path)
 
     if shuffle:
         df = df.sample(
